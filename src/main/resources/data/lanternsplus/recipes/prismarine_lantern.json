@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "X": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "result": {
+    "item": "lanternsplus:prismarine_lantern"
+  }
+}
