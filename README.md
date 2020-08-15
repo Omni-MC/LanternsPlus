@@ -2,7 +2,7 @@ This mod aims to add many more lanterns to Minecraft that are themed around biom
 
 These lanterns can be placed on the floor, hung from a ceiling, placed on the wall, and even placed underwater.
 
-The mod currently contains three lanterns.
+The mod currently contains four lanterns.
 
 -Prismarine Lantern
 
@@ -13,6 +13,10 @@ The mod currently contains three lanterns.
 -Blazing Lantern
 
        Crafted by surrounding a Blaze Rod in Nether Brick.
+      
+-Red Mushroom Lantern
+       
+       Crafted by surrounding a Glowstone block in Red Mushrooms.
 
  
 
