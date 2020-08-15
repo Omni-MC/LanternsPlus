@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "lanternsplus:red_mushroom_lantern"
+          "name": "minecraft:lantern"
         }
       ],
       "conditions": [

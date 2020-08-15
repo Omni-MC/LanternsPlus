@@ -1,12 +1,20 @@
 package com.omnimc.lanternsplus;
 
+import com.omnimc.lanternsplus.block.BlockLantern;
 import com.omnimc.lanternsplus.registry.LanternRegistry;
+import net.minecraft.block.Block;
+import net.minecraft.block.Blocks;
+import net.minecraft.block.LanternBlock;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.RegistryObject;
@@ -29,6 +37,12 @@ public class LanternsPlus {
         LanternRegistry.BLOCKS.register(modEventBus);
     }
 
+    //@SuppressWarnings("ConstantConditions")
+    //@SubscribeEvent(priority = EventPriority.LOWEST)
+    //public static void registerVanillaOverrides(RegistryEvent.Register<Block> event) {
+    //    event.getRegistry().register(new BlockLantern(Block.Properties.from(Blocks.LANTERN)).setRegistryName(new ResourceLocation("minecraft", "lantern")));
+    //}
+
     @SubscribeEvent
     public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
         final IForgeRegistry<Item> registry = event.getRegistry();
@@ -48,6 +62,7 @@ public class LanternsPlus {
         RenderTypeLookup.setRenderLayer(LanternRegistry.PURPUR_LANTERN.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LanternRegistry.BLAZING_LANTERN.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LanternRegistry.RED_MUSHROOM_LANTERN.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LanternRegistry.FANCY_LANTERN.get(), RenderType.getCutout());
     }
 
     private void doClientStuff(final FMLClientSetupEvent event){
