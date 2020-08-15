@@ -47,6 +47,7 @@ public class LanternsPlus {
         RenderTypeLookup.setRenderLayer(LanternRegistry.PRISMARINE_LANTERN.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LanternRegistry.PURPUR_LANTERN.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(LanternRegistry.BLAZING_LANTERN.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(LanternRegistry.RED_MUSHROOM_LANTERN.get(), RenderType.getCutout());
     }
 
     private void doClientStuff(final FMLClientSetupEvent event){

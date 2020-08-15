@@ -22,5 +22,6 @@ public class LanternRegistry {
     public static final RegistryObject<Block> PRISMARINE_LANTERN            = BLOCKS.register("prismarine_lantern", () -> new BlockLantern(Block.Properties.create(Material.IRON, MaterialColor.QUARTZ).hardnessAndResistance(3.5F).sound(SoundType.LANTERN).notSolid().lightValue(14)));
     public static final RegistryObject<Block> PURPUR_LANTERN                = BLOCKS.register("purpur_lantern", () -> new BlockLantern(Block.Properties.create(Material.IRON, MaterialColor.QUARTZ).hardnessAndResistance(3.5F).sound(SoundType.LANTERN).notSolid().lightValue(12)));
     public static final RegistryObject<Block> BLAZING_LANTERN               = BLOCKS.register("blazing_lantern", () -> new BlockLantern(Block.Properties.create(Material.IRON, MaterialColor.QUARTZ).hardnessAndResistance(3.5F).sound(SoundType.LANTERN).notSolid().lightValue(12)));
+    public static final RegistryObject<Block> RED_MUSHROOM_LANTERN               = BLOCKS.register("red_mushroom_lantern", () -> new BlockLantern(Block.Properties.create(Material.IRON, MaterialColor.QUARTZ).hardnessAndResistance(3.5F).sound(SoundType.LANTERN).notSolid().lightValue(10)));
 
 }
