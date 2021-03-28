@@ -2,6 +2,12 @@
   "block.lanternsplus.prismarine_lantern" : "Prismarine Lantern",
   "block.lanternsplus.purpur_lantern" : "Purpur Lantern",
   "block.lanternsplus.blazing_lantern" : "Blazing Lantern",
+  "block.lanternsplus.brown_mushroom_lantern" : "Brown Mushroom Lantern",
   "block.lanternsplus.red_mushroom_lantern" : "Red Mushroom Lantern",
-  "block.lanternsplus.fancy_lantern" : "Lantern"
+  "block.lanternsplus.fancy_lantern" : "Lantern",
+  "block.lanternsplus.fancy_soul_lantern" : "Soul Lantern",
+  "block.lanternsplus.warped_fungus_lantern" : "Warped Fungus Lantern",
+  "block.lanternsplus.crimson_fungus_lantern" : "Crimson Fungus Lantern",
+  "block.lanternsplus.gilded_blackstone_lantern" : "Gilded Blackstone Lantern",
+  "block.lanternsplus.quartz_lantern" : "Quartz Lantern"
 }

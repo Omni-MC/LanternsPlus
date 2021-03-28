@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "facing=down": { "model": "lanternsplus:block/brown_mushroom_lantern_ceiling" },
+    "facing=up": { "model": "lanternsplus:block/brown_mushroom_lantern_floor" },
+    "facing=north": { "model": "lanternsplus:block/brown_mushroom_lantern_wall", "y": 180 },
+    "facing=south": { "model": "lanternsplus:block/brown_mushroom_lantern_wall" },
+    "facing=west": { "model": "lanternsplus:block/brown_mushroom_lantern_wall", "y": 90 },
+    "facing=east": { "model": "lanternsplus:block/brown_mushroom_lantern_wall", "y": 270 }
+  }
+}

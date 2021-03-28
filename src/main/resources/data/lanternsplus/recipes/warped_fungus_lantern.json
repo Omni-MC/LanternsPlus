@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X#X",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:shroomlight"
+    },
+    "X": {
+      "item": "minecraft:warped_fungus"
+    }
+  },
+  "result": {
+    "item": "lanternsplus:warped_fungus_lantern"
+  }
+}
